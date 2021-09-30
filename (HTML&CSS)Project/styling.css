@@ -34,6 +34,7 @@ h1 a{
     padding: 10px;
     font-size:10px;
     color:chocolate;
+    background:white url(images/logo.png) right center no-repeat
 }
 
 .submit{
