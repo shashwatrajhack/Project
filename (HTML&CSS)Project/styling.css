@@ -1,6 +1,5 @@
 #container {
     width:1050px;
-    border:1px solid greenyellow;
     height:100px;
     margin:0 auto;
 }
@@ -12,11 +11,11 @@
 #brand{
     float:left;
 }
-
+  
 h1 a{
     font-size:50px;
     font-weight:100;
-    color:#3fc03b;
+    color:purple;
     text-decoration: none;
 }
 #searchBox{
@@ -44,4 +43,114 @@ h1 a{
     color:white;
     background:cyan;
     font-size: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(yellowgreen,greenyellow);
+    padding: 7px 0;
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid purple;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: blueviolet;
+    line-height: 30px;
+    -webkit-transition: font-size 0.25s ease;
+    -moz-transition: font-size 0.25s ease;
+    -o-transition: font-size 0.25s ease;
+    -ms-transition: font-size 0.25s ease;
+    transition: font-size 0.25s ease;
+
+}
+
+#menu ul li a:hover,#menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+}
+
+#introduction{
+    background: linear-gradient(lightseagreen,lightgreen);
+    padding: 30px;
+    margin: 17px 0;
+}
+
+#introduction h3{
+    font-size: 40px;
+    color: darkgreen;
+
+}
+
+#introduction p{
+    font-size: 25px;
+    color: darkcyan;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: purple;
+    font-size: 30px;
+} 
+
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+}
+#leftsidebar ul {
+    padding-top: 8px;
+}
+#leftsidebar ul li{
+    padding-bottom: 6 px;
+    padding-left: 10px;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: purple;
+    font-size: 25px;
+    font-weight: bold;
+     -webkit-transition: font-size 0.25s ease;
+    -moz-transition: font-size 0.25s ease;
+    -o-transition: font-size 0.25s ease;
+    -ms-transition: font-size 0.25s ease;
+    transition: font-size 0.25s ease;
+
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
 }
